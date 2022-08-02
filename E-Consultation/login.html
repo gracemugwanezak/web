@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <style type="text/css">
+		body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkolivegreen;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.division {
+  padding: 16px;
+  background-color: white;
+}
+
+		input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.loginbtn {
+  background-color: darkolivegreen;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity: 1;
+}
+
+	</style>
+</head>
+<body>
+<form>
+<div class="division"><h1>LOGIN HERE</h1>
+<label>username:</label></br>
+<input type="text"placeholder="write your username"></br>
+
+<div class="password">
+    <label>password:</label></br>
+    <input type="password"placeholder="your password here"></br>
+
+<button type="submit" class="loginbtn">login</button>
+</div>
+<div class="division login">
+<p>don't have an account? <a href="sign-up.html">sign-up</a></p>
+</div>
+
+</form>
+</body>
+</html>

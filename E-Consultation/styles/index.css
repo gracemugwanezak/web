@@ -1,0 +1,64 @@
+header{
+	width:100%;
+	height: 70px;
+	background: rgba(85, 107, 47, 0.998);
+}
+body{
+	min-height:100vh;
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	padding: 25px 10px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-around;
+}
+.navbar .logo{
+font-size: larger;
+}
+.navlinks ul{
+list-style: none;
+
+
+
+}
+.navlinks li{
+	display: inline;
+	margin-right: 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.button-collection span{
+ width: 10px;
+}
+.hero{
+	display: flex;
+	justify-content:space-around;
+
+}
+.image{
+width: 50%;
+}
+.description{
+width: 50%;
+}
+.description button{
+	background:rgb(85, 107, 47) ;
+	border: none;
+	padding: 10px 30px;
+	font-size: 24px;
+}
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	color:rgb(85, 107, 47) ;
+	padding-right: 20px;
+}
